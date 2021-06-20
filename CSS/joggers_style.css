@@ -1,0 +1,58 @@
+.card {
+  height: 250px;
+  overflow: hidden;
+}
+
+header {
+  width: auto;
+  height: 100px;
+  background-color: #7F8B52;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 200px;
+  overflow: hidden;
+}
+
+h5 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width:1000px) {
+  .card-img-top {}
+
+  .card {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 15px;
+  }
+
+  .image-cards {
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2%;
+    background-color: #F3F0D7;
+  }
+}
+
+body {
+  background-color: red;
+}
+footer{
+  width: auto;
+  height: 100px;
+  background-color: #7F8B52;
+  text-align: center;
+}
